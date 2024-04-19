@@ -9,7 +9,7 @@ class TestCalculatrice {
 	@Test
 	void testSomme() {
 		Calculatrice c = new Calculatrice();
-		assertEquals(6,c.somme(3, 3));
+		assertEquals(5,c.somme(2, 3));
 	}
 
 	@Test
